@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  padding-top: 100px;
+  background-color: rgb(255, 202, 220);
+  
+}
+
+.header {
+  margin-bottom: 100px;
+  text-align: center;
+  color: rgb(199, 61, 80);
+  font-size: 70px;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.boxes__box {
+  width: 100px;
+  height: 100px;
+  border: 5px solid rgba(124, 54, 54, 0.705);
+  border-radius: 10px;
+  background-color: rgb(199, 61, 80);
+  cursor: pointer;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 500ms ease-in-out;
+}
+
+.box_1.active-1{
+  background-image: url(../img/piggy-1.jpg);
+  height: 200px;
+  width: 200px;
+}
+
+.box_2.active-2{
+  background-image: url(../img/piggy-2.jpg);
+  height: 200px;
+  width: 200px;
+}
+
+.box_3.active-3{
+  background-image: url(../img/piggy-3.jpg);
+  height: 200px;
+  width: 200px;
+}
+
+.box_4.active-4{
+  background-image: url(../img/piggy-4.jpg);
+  height: 200px;
+  width: 200px;
+}
+
+.box_5.active-5{
+  background-image: url(../img/piggy-5.jpg);
+  height: 200px;
+  width: 200px;
+}
+
+.box_6.active-6{
+  background-image: url(../img/piggy-6.jpg);
+  height: 200px;
+  width: 200px;
+}
